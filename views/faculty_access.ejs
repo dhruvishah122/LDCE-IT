@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Faculty Login</title>
+      <link rel="stylesheet" href="/css/professor_login.css" type="text/css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="center">
+         <input type="checkbox" id="show">
+         <label for="show" class="show-btn">View Form</label>
+         <div class="container">
+            <label for="show" class="close-btn fas fa-times" title="close"></label>
+            <div class="text">
+               See Attendance of students
+            </div>
+            <form action="/edit_attendance_access" method="post">
+               
+               <div class="data">
+                  <label>Semester</label>
+                  <input type="text" name="sem" required>
+               </div>
+               
+               <div class="btn">
+                  <div class="inner"></div>
+                  <button type="submit">show students data</button>
+               </div>
+               
+            </form>
+         </div>
+      </div>
+   </body>
+</html>

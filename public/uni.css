@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    border-color: white;
+    border-radius: 20px;
+    position: relative;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 350px;
+    right: 104px;
+    border-width: 4px;
+    font-weight: 900;
+}
+.button a{
+    color:white;
+    text-decoration:none;
+}
+.button a:hover{
+    color:black;
+}
+.button button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.button1 button{
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    border-color: white;
+    border-radius: 20px;
+    position: relative;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 299px;
+    right: -114px;
+    border-width: 4px;
+    font-weight: 900;
+}
+.button1 a{
+    color:white;
+    text-decoration:none;
+}
+.button1 a:hover{
+    color:black;
+}
+.button1 button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.logo{
+    background-color: white;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-width: 50%;
+}
+.Background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media screen and (min-aspect-ratio:16/9){
+    .Background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-aspect-ratio:16/9){
+    .Background-clip{
+        width: auto;
+        height: 100%;
+    }
+}
+

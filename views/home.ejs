@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        table,th,td{
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>name</th>
+            <th>password</th>
+        </tr>
+      
+            <%for(ans of ans){%>
+                <tr>
+     <td><%=ans.name%></td>
+     <td><%=ans.password%></td>
+     <td>
+     <form method="GET" action="/user/<%=ans.name%>/edit">
+        <button>Edit data</button>
+     </form>
+    </td>
+    </tr>
+          <%  }%>
+      
+       
+        </table>
+   
+</body>
+</html>

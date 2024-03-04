@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="/css/attendance_form.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+          <form action="/mark" method="post">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Enrollment Number</span>
+                <input type="number" placeholder="Enter your Enrollment number" name="enroll" required>
+              </div>
+              <div class="input-box">
+                <span class="details"> Faculty's Email</span>
+                <input type="email" placeholder="Enter Faculty's Email" name="email" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Course ID</span>
+                <input type="number" placeholder="Enter your Course ID" name="id" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Semester</span>
+                <input type="number" placeholder="Enter your Semester number" name="sem"required>
+              </div>
+              <div class="input-box">
+                <span class="details">OTP</span>
+                <input type="number" placeholder="Enter your OTP" name="otp" required>
+              </div>
+            </div>    
+            <div class="button">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+        </div>    
+</body>
+</html>

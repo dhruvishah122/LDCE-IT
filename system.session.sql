@@ -1,0 +1,18 @@
+-- create database ldce;
+select * from sem_4 inner join student_details on sem_4.Enrollment_no=student_details.Enrollment_no;
+-- 
+-- SELECT * from otp_table;
+-- create table faculty(Full_name varchar(30),phone varchar(10),email varchar(45), pass varchar(100));
+-- create table otp_table(email varchar(50),otp int,time_stamp TIMESTAMP);
+-- create table fake(
+-- `123` varchar(100)
+--  );
+-- select * from Student_details where Enrollment_no=122 and pass='129';
+-- //and pass='129';
+-- -- -- create table student_details(Full_Name varchar(25),Enrollment_no int PRIMARY key, Email varchar(25),Phone_Number varchar(10),pass varchar(25) ,Semester varchar(25),Division varchar(10));
+-- select * from sem_6;
+-- create table sem_4(Enrollment_no int primary key,`3140702` varchar(100),`3140705` varchar(26),`3140707` varchar(26),`3140708` varchar(26),`3140709` varchar(26));
+-- create table sem_5(Enrollment_no int primary key,`3160003` varchar(100),`3160704` varchar(26),`3160707` varchar(26),`3160712` varchar(26),`3160713` varchar(26),`3160714` varchar(26),`3160715` varchar(26),`3160716` varchar(26),`3160717` varchar(26));
+-- create table year_1(Enrollment_no int primary key,`3110001` varchar(26),`3110002` varchar(100),`3110003` varchar(26),`3110004` varchar(26),`3110005` varchar(26),`3110006` varchar(26),`3110007` varchar(26),`3110013` varchar(26),`3110014` varchar(26),`3110015` varchar(26),`3110016` varchar(26),`3110011` varchar(26),`3110018` varchar(26));
+-- alter table sem_5 rename to sem_6;
+-- insert inselect * from sem_6 natural join student_details on sem_4.Enrollment_no=student_details.Enrollment_noto otp_table(email,otp,time_stamp)values('patvaupasana@gmail.com',123,'2024-03-02 04:31:45');

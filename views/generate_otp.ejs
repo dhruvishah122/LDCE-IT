@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take attendance</title>
+    <link rel="stylesheet" href="/css/generate_otp.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+          <form action="/take_attendance" method="post">
+            <div class="user-details">
+             
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="email" placeholder="Enter Email" name="email"required>
+              </div>
+            </div>    
+            <div class="button">
+                <input type="submit" value="Send OTP">
+              </div>
+            </form>
+          </div>
+        </div>    
+</body>
+</html>
